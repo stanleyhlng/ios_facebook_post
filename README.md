@@ -3,6 +3,8 @@ ios_facebook_post
 
 [prototyping] Facebook Post iOS App
 
+[![image](https://raw.githubusercontent.com/wiki/stanleyhlng/ios_facebook_post/assets/ios_facebook_post.gif)](https://raw.githubusercontent.com/wiki/stanleyhlng/ios_facebook_post/assets/ios_facebook_post.gif)
+
 ## Overview
 
 Create an unscrollable detail view of Facebook post.
