@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "PostViewController.h"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @implementation AppDelegate
 
@@ -14,7 +17,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Create the first view controller
+    PostViewController *vc = [[PostViewController alloc] init];
+    
+    
+    // Create the navigation controller
+    //UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    
+    self.window.rootViewController = vc;
+    
+    self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -19,6 +19,8 @@
 		20402453193F1E3F00CE0E7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2040243B193F1E3F00CE0E7B /* UIKit.framework */; };
 		2040245B193F1E3F00CE0E7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20402459193F1E3F00CE0E7B /* InfoPlist.strings */; };
 		2040245D193F1E3F00CE0E7B /* ios_facebook_postTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2040245C193F1E3F00CE0E7B /* ios_facebook_postTests.m */; };
+		20B4A3B41940FD6300D323E5 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B4A3B21940FD6300D323E5 /* PostViewController.m */; };
+		20B4A3B51940FD6300D323E5 /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B4A3B31940FD6300D323E5 /* PostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		20402458193F1E3F00CE0E7B /* ios_facebook_postTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios_facebook_postTests-Info.plist"; sourceTree = "<group>"; };
 		2040245A193F1E3F00CE0E7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2040245C193F1E3F00CE0E7B /* ios_facebook_postTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_facebook_postTests.m; sourceTree = "<group>"; };
+		20B4A3B11940FD6300D323E5 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		20B4A3B21940FD6300D323E5 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		20B4A3B31940FD6300D323E5 /* PostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				20402447193F1E3F00CE0E7B /* AppDelegate.m */,
 				20402449193F1E3F00CE0E7B /* Images.xcassets */,
 				2040243E193F1E3F00CE0E7B /* Supporting Files */,
+				20B4A3B11940FD6300D323E5 /* PostViewController.h */,
+				20B4A3B21940FD6300D323E5 /* PostViewController.m */,
+				20B4A3B31940FD6300D323E5 /* PostViewController.xib */,
 			);
 			path = ios_facebook_post;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				20402442193F1E3F00CE0E7B /* InfoPlist.strings in Resources */,
 				2040244A193F1E3F00CE0E7B /* Images.xcassets in Resources */,
+				20B4A3B51940FD6300D323E5 /* PostViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				20402448193F1E3F00CE0E7B /* AppDelegate.m in Sources */,
 				20402444193F1E3F00CE0E7B /* main.m in Sources */,
+				20B4A3B41940FD6300D323E5 /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +447,7 @@
 				20402462193F1E3F00CE0E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20402463193F1E3F00CE0E7B /* Build configuration list for PBXNativeTarget "ios_facebook_postTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				20402465193F1E3F00CE0E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
